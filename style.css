@@ -1,0 +1,767 @@
+.header-top{
+	padding-top: 10px;
+}
+.header-top .logo{
+	width: 21%;
+	float: left;
+}
+.header-top .slogan{
+	width: 80%;
+	margin-left: 140px;
+}
+.header-top .slogan p{
+	font-size: 20px;
+	color: orange;
+	margin-top: 55px;
+}
+.header-top b,.bl{
+	color: black;
+}
+.header-top .top{
+	float: right;
+}
+.header-top .top .bac{
+	color: black;
+}
+.header-top .top a{
+	color: orange;
+	margin-left: 50px;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.header-top .right{
+	float: left;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.header-top .right span{
+	float: right;
+	color: black;
+}
+.header-top .search{
+	float: right;
+	margin-top: 10px;
+}
+.header-top .search .full{
+	width: 150px;
+	height: 40px;
+	border: none;
+	background: #1d508d;
+	padding: 8px 15px 8px 15px;
+	text-transform: uppercase;
+	color: white;
+}
+.header-top button{
+	height: 40px;
+	background: #1d508d;
+	border: none;
+	border-radius: 0 25px 25px 0;
+}
+.sticky{
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	background: #1d508d
+}
+.header-menu li a{
+	font-size: 14px;
+	color: white;
+	display: block;
+}
+.header-menu ul li{
+	position: relative;
+}
+.header-menu li a:hover,.header-menu li a:focus{
+	background: none;
+}
+.header-menu .dropdown-menu{
+	width: 275px;
+}
+.header-menu .dropdown-menu a{
+	top: 100%;
+	left: 0;
+	background: white;
+	color: black;
+	font-size: 13px;
+	white-space: pre-wrap;
+}
+.header-menu .dropdown-menu li:hover,.header-menu .dropdown-menu li:focus{
+	background: #f0f0f0;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+.dropdown-menu.second-level{
+	left: 100%;
+	top: 0;
+}
+.dropdown-menu li:hover .second-level{
+	display: block;
+}
+.navbar-header .navbar-brand{
+	visibility: hidden;
+	color: white;
+}
+.carousel-caption{
+	top: calc(50% - 24px);
+}
+.carousel-control{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h2{
+	font-size: 48px;
+	text-shadow: 4px 5px 10px black;
+}
+.trip{
+	background: #333;
+}
+.trip .heading{
+	width: 20%;
+	float: left;
+	margin-bottom: 15px;
+}
+.trip h3, .wh{
+	color: white;
+}
+.trip .destination, .act, .duration{
+	float: left;
+	width: 20%;
+	padding-top: 22px;
+}
+.trip .destination select{
+	width: 100%;
+	padding: 15px;
+	background: #fff url(images/icon-destination.png) left 15px center;
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	font-size: 17px;
+}
+.trip .act select{
+	width: 100%;
+	padding: 15px;
+	background: #fff url(images/icon-activity.png) left 15px center;
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	font-size: 17px;
+}
+.trip .duration select{
+	width: 100%;
+	padding: 15px;
+	background: #fff url(images/icon-duration.png) left 15px center;
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	font-size: 17px;
+}
+.trip .middle{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.trip .button{
+	padding: 22px;
+}
+.trip button{
+	width: 13%;
+	float: right;
+	padding: 12px;
+	font-size: 17px;
+	background: orange;
+	border-color: orange;
+	color: white;
+}
+.top-destation h2{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.top-destation .hello{
+	color: white;
+	position: relative;
+}
+.top-destation .hell a{
+	color: white;
+	text-decoration: none;
+}
+.top-destation .hell{
+	margin-top: -120px;
+	margin-left: 120px;
+	float: right;
+	color: white;
+	position: absolute;
+	text-shadow: -4px -1px 4px #000;
+}
+.top-destation big{
+	font-size: 40px;
+} 
+.top-destation small{
+	font-size: 22px;
+} 
+.contain {
+	margin-top: 70px;
+	text-align: center;
+	background: #f2f4f5;
+}
+.contain .tp{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.contain a{
+	text-decoration: none;
+	font-size: 19px;
+}
+.travel{
+	width: 100%;
+}
+.travel .blue{
+	background: #1d508d;
+	padding: 20px;
+	text-align: center;
+}
+.travel .orange{
+	background: #eb8d02;
+	padding: 20px;
+	text-align: center;
+}
+.travel a{
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+}
+.best h2{
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+.best .border{
+	width: 100%px;
+	height: 252px;
+}
+.best img{
+	object-fit: cover;
+}
+.best .caption a{
+	text-decoration: none;
+}
+.best .package .fn{
+	font-size: 20px;
+}
+.best .fluid{
+	text-align: center;
+}
+.best .fluid a{
+	text-transform: uppercase;
+	margin-top: 50px;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+.page-nav{
+	background: #f4f4f4;
+	margin-bottom: 50px;
+}
+.page-nav ol .here {
+	margin-top: 14px;
+}
+.page-nav li a{
+	color: #333;
+}
+.page-nav li a:hover,.page-nav li a:focus{
+	background: none;
+}
+.page-nav ol{
+	display: block;
+}
+.page-nav .breadcrumb{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.page-nav .breadcrumb a:hover{
+	text-decoration: none;
+	color: #999;
+}
+.contactus-page{
+	padding-bottom: 50px;
+}
+.contactus-page .icon{
+	border: 1px solid #ccc;
+	padding: 6px 12px;
+}
+.contactus-page a{
+	padding: 10px 20px;
+}
+.input-group{
+	width: 100%;
+}
+.share h3{
+	text-align: center;
+}
+.blog-page{
+	margin-bottom: 50px;
+}
+.blog-page .blog-contain{
+	background: #f0f0f0;
+}
+.blog-page .blog-contain{
+	padding: 30px;
+} 
+.blog-page .blog-contain .date{
+	background: #1d508d;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.blog-page .blog-contain .text h4{
+	padding-left: 83px;
+}
+.blog-page .blog-contain .text a{
+	margin-top: 50px;
+}
+.side{
+	margin-top: 50px;
+	border: 3px solid #f0f0f0;
+}
+.side h3{
+	background: #f0f0f0;
+	padding: 10px 10px;
+	margin-top: 0;
+}
+.side ul{
+	list-style: none;
+	padding: 15px;
+}
+.side a{
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #f0f0f0;
+	font-size: 16px;
+}
+.side-blog{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.side-down{
+	margin-top: 50px;
+	border: 3px solid #f0f0f0;
+}
+.blog-page .side-down .image, .blog-page .side-down .text{
+	padding: 10px;
+}
+.blog-page .side-down h3 a{
+	color: black;
+}
+.ktm-ctwn-pkh .nav-tabs>li.active>a, .Everest-Base-camp-Private-Trek .nav-tabs>li.active>a{
+	border: none;
+}
+.ktm-ctwn-pkh .nav-tabs, .Everest-Base-camp-Private-Trek .nav-tabs{
+	border: none;
+	background: #1d508d;
+	padding: 0 15px;
+}
+.ktm-ctwn-pkh .ktm-content .active a, .Everest-Base-camp-Private-Trek .ktm-content .active a{
+	background: #eb8d02;
+}
+.ktm-ctwn-pkh .ktm-content li a, .Everest-Base-camp-Private-Trek .ktm-content li a{
+	color: white;
+	padding: 20px;
+	background: transparent;
+}
+.ktm-ctwn-pkh .ktm-content li .active a, .Everest-Base-camp-Private-Trek .ktm-content li .active a{
+	background: #eb8d02;
+}
+.ktm-ctwn-pkh .ktm-content li a:hover, .Everest-Base-camp-Private-Trek .ktm-content li a:hover{
+	background: #eb8d02;
+	color: white;
+}
+.ktm-ctwn-pkh .tab-content #overview, .Everest-Base-camp-Private-Trek .tab-content #overview{
+	padding-top: 30px;
+	font-size: 17px;
+}
+.ktm-ctwn-pkh #itinerary .day, .Everest-Base-camp-Private-Trek #itinerary .day{
+	background: #eb8d02;
+	font-weight: bold;
+	padding: 10px;
+	margin-right: 10px;
+	color: white;
+}
+.ktm-ctwn-pkh .highlights ul, .Everest-Base-camp-Private-Trek .highlights ul{
+	padding: 0;
+	padding-left: 15px;
+}
+.ktm-ctwn-pkh .highlights li, .ktm-ctwn-pkh .out li,.Everest-Base-camp-Private-Trek .highlights li, .Everest-Base-camp-Private-Trek .out li{
+	font-size: 14px;
+	padding: 5px;
+	list-style: none;
+}
+.ktm-ctwn-pkh .highlights li i, .Everest-Base-camp-Private-Trek .highlights li i{
+	padding-right	: 15px;
+}
+.ktm-ctwn-pkh .highlight h3,.ktm-ctwn-pkh .outline h3, .Everest-Base-camp-Private-Trek .highlight h3,.ktm-ctwn-pkh .outline h3{
+	margin-top: 50px;
+}
+.ktm-ctwn-pkh .outline ul, .Everest-Base-camp-Private-Trek .outline ul{
+	padding: 0;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+.ktm-ctwn-pkh .outline .yellow, .Everest-Base-camp-Private-Trek .outline .yellow{
+	font-weight: bold;
+	color: #eb8d02;
+	font-size: 16px;
+	margin-right: 5px;
+}
+.ktm-ctwn-pkh .booking li a, .Everest-Base-camp-Private-Trek .booking li a{
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 15px;
+}
+.ktm-ctwn-pkh .booking li a:hover, .ktm-ctwn-pkh .booking li a:focus, .Everest-Base-camp-Private-Trek .booking li a:hover, .ktm-ctwn-pkh .booking li a:focus{
+	background: #0f407a;
+}
+.ktm-ctwn-pkh .booking i, .Everest-Base-camp-Private-Trek .booking i{
+	background: #0f407a;
+	color: white;
+	padding: 10px 15px;
+}
+.ktm-ctwn-pkh .call, .Everest-Base-camp-Private-Trek .call{
+	float: left;
+	font-size: 17px;
+	padding: 15px;
+	padding-bottom: 50px;
+}
+.ktm-ctwn-pkh .ktm-border{
+	border: 3px solid #999;
+	padding-bottom: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ktm-ctwn-pkh .ktm-border i, .Everest-Base-camp-Private-Trek .ktm-border i{
+	color: #eb8d02;
+	margin-right: 5px;
+}
+.ktm-ctwn-pkh #key i, .Everest-Base-camp-Private-Trek #key i{
+	color: orange;
+	padding-left: 5px;
+}
+.ktm-ctwn-pkh #key small, .Everest-Base-camp-Private-Trek #key small{
+	display: inline-block;
+}
+.ktm-ctwn-pkh #key .row, .Everest-Base-camp-Private-Trek #key .row{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ktm-ctwn-pkh #key .fluid, .Everest-Base-camp-Private-Trek #key .fluid{
+	margin-bottom: 30px;
+}
+.Everest-Base-camp-Private-Trek .ktm-border{
+	border: 3px solid #999;
+	padding-bottom: 345px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}.enquiry-and-support h2{
+	margin-bottom: 30px;
+}
+.enquiry-and-support p{
+	font-size: 16px;
+}
+.company-profile p{
+	font-size: 16px;
+}
+.company-profile h4{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.about .relative, .why .relative{
+	position: relative;
+	z-index: -2;
+}
+.about .top{
+	z-index: 9;
+	position: absolute;
+	font-size: 36px;
+	margin-top: -120px;
+	margin-left: calc(50% - 350px);
+	color: white;
+	text-shadow: 3px 5px 10px black;
+}
+.about-us p, .why p{
+	margin-bottom: 30px;
+}
+.about-us h4, .why h4{
+	margin-bottom: 15px;
+}
+.why .top{
+	z-index: 9;
+	position: absolute;
+	font-size: 36px;
+	margin-top: -120px;
+	margin-left: calc(50% - 100px);
+	color: white;
+	text-shadow: 3px 5px 10px black;
+}
+.top-destation .whol{
+	margin-bottom: 25px;
+}
+.top-destation .whol big{
+	font-size: 30px;
+}
+.top-destation .des{
+	margin-top: 0;
+}
+.top-destation .non{
+	float: none;
+}
+.top-destation .package{
+	margin-bottom: 50px;
+}
+.top-destation .whol .fan{
+	font-size: 24px;
+}
+.blog-page .blog-con{
+	font-size: 16px;
+}
+.blog-page .blog-con p{
+	padding-top: 50px;
+}
+.error{color: #f00;}
+footer{
+	background: #1d508d;
+}
+footer .partner h3{
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+footer .partner img{
+	margin-left: 280px;
+	margin-bottom: 70px;
+}
+footer .footer-nav{
+	width: 100%;
+	background-image: url(images/footer-bg.png);
+	display: inline-block;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+footer .footer-nav .nav li a{
+	color: white;
+}
+footer .footer-nav .nav li a:hover,footer .footer-nav .nav li a:focus{
+	background: none;
+	color: #ccc;
+}
+footer .get-intouch{
+	border-top: 1px solid #346299;
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
+}
+footer .copy{
+	background: #0f407a;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+footer .copy .find-us .social-media a{
+	font-size: 30px;
+	color: white;
+}
+.copy .social-media i{
+	padding: 5px;
+}
+.to-top { 	
+	position: fixed; 
+	bottom: 20px; 
+	right: 20px; 
+	text-decoration: none; 
+	color: #fff; 
+	background: #151f28; 
+	padding: 10px 20px; 
+	display: none; 
+}
+.to-top:hover{ 
+	color: #151f28; 			
+	background: blueviolet; 
+}
+img{
+	object-fit: cover;
+}
+@media(max-width: 768px){
+	.navbar-header{
+		display: block;
+	}
+	.navbar-header .navbar-brand{
+		visibility: visible;
+	}
+	.navbar-header .icon-bar{
+		background: white;
+	}
+	.second-toggle i{
+		display: none;
+	}
+	.header-top .logo{
+		width: 100%;
+		padding-left: 140px;
+	}
+	.header-top .slogan{
+		width: 100%;
+		margin: 0;
+		padding-left: 100px;
+	}
+	.header-top .top,.right,.search{
+		display: none;
+	}
+	.header-top .search{
+		margin-bottom: 5px;
+	}
+	.banner h2{
+		font-size: 30px;
+	}
+	.trip{
+		display: none;
+	}
+	.top-destation .down{
+		margin-bottom: 25px;
+	}
+	.top-destation h2,.best h2{
+		margin-top: 50px;
+	}
+	.best .mar{
+		margin-bottom: 25px;
+	}
+	.best .package .lft{
+		float: left;
+	}
+	.best .package .rtr{
+		float: right;
+		margin-right: 40px;
+	}
+	.best .caption{
+		padding-top: 25px;
+	}
+	.best .package .mid{
+		margin-left: 5%;
+		float: left;
+	}
+	.top-destation .package .pac-left, .top-destation .package .pac-mid{
+		width: 30%;
+		float: left;
+	}
+	.top-destation .package .pac-right{
+		float: right;
+	}
+	.enquiry-and-support .enq-left{
+		width: 45%;
+		float: left;
+	}
+	.enquiry-and-support .enq-right{
+		width: 55%;
+		float: right;
+	}
+	.booking .book li{
+		margin-bottom: 10px;
+		margin-left: 15px;
+	}
+	.Everest-Base-camp-Private-Trek .ktm-content .top, .ktm-ctwn-pkh .ktm-content .top{
+		margin-top: 15px;
+	}
+	.Everest-Base-camp-Private-Trek .ktm-border {
+		padding-bottom: 45px;
+	}
+	.about .top{
+		margin-top: -60px;
+   		margin-left: calc(50% - 190px);
+	}
+	.top-destation .hell{
+		margin-left: 70px;
+	}
+	.why .top{
+		margin-top: -50px;
+		margin-left: calc(50% - 130px);
+	}
+	footer .partner img{
+		margin: 0;
+		width: 100%;
+	}
+}
+@media(min-width: 767px) and (max-width: 991px){
+	.navbar-header{
+		display: none;
+	}
+	.header-top .with{
+		width: 35%;
+	}
+	.header-top .rwith{
+		width: 65%;
+	}
+	.header-top .logo{
+		padding-left: 0;
+	}
+	.header-top .top,.right,.search{
+		display: block;
+	}
+	.header-top .right{
+		padding-left: 125px;
+	}
+	.header-top .slogan{
+		padding-left: 0;
+	}
+	.header-top .top a{
+		margin-left: 15px;
+		font-size: 14px;
+	}
+	.header-top .right p{
+		font-size: 15px;
+	}
+	.second-toggle i{
+		display: none;
+	}
+	.banner h2{
+		font-size: 30px;
+	}
+	.trip{
+		display: none;
+	}
+	.top-destation h2,.best h2{
+		margin-top: 50px;
+	}
+	.top-destation .down{
+		margin-bottom: 25px;
+		width: 50%;
+	}
+	.travel{
+		margin-bottom: 50px;
+	}
+	.best .caption{
+		padding-top: 0;
+	}
+	.best .mar{
+		width: 50%;
+	}
+	.best .package .lft{
+		width: 20%;
+	}
+	.best .package .mid{
+		width: 30%;
+	}
+	footer .partner img{
+		margin: 0;
+	}
+}
+@media(min-width: 990px) and (max-width: 1024px){
+	.header-top .with{
+		width: 40%;
+	}
+	.header-top .rwith{
+		width: 60%;
+	}
+	.sticky .navbar-header{
+		display: none;
+	}
+	footer .partner img{
+		margin: 0;
+		margin-left: 240px;
+	}
+}
